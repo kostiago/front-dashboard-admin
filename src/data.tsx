@@ -90,7 +90,7 @@ export const menu = [
 export const topDealUsers = [
   {
     id: 1,
-    img: 'https://www.istockphoto.com/photo/beautiful-woman-smiling-with-crossed-arms-gm1289220545-384962432?utm_campaign=srp_photos_10&utm_content=https%3A%2F%2Fwww.pexels.com%2Fprocurar%2Fpessoas%2F&utm_medium=affiliate&utm_source=pexels&utm_term=pessoas',
+    img: 'https://media.istockphoto.com/id/1369508766/pt/foto/beautiful-successful-latin-woman-smiling.jpg?s=1024x1024&w=is&k=20&c=6RjX9BmgYae7KefLlbxbz4ZaPvDW4isneQ56-VK2i3k=',
     username: 'Elva McDonald',
     email: 'elva@email.com',
     clientProcess: '000002',
@@ -108,7 +108,7 @@ export const topDealUsers = [
   },
   {
     id: 3,
-    img: 'https://www.istockphoto.com/photo/happy-black-businesswoman-using-a-smartphone-in-a-creative-office-gm1408041355-459029954?utm_campaign=srp_photos_10&utm_content=https%3A%2F%2Fwww.pexels.com%2Fprocurar%2Fpessoas%2F&utm_medium=affiliate&utm_source=pexels&utm_term=pessoas',
+    img: 'https://media.istockphoto.com/id/1289220545/pt/foto/beautiful-woman-smiling-with-crossed-arms.jpg?s=1024x1024&w=is&k=20&c=iMSziXUpBaq3p4Vi6jax7AITgRl4zWeWz3Av_TuJauw=',
     username: 'Maria Lore',
     email: 'maria.lore@email.com',
     clientProcess: '000102',
@@ -117,7 +117,7 @@ export const topDealUsers = [
   },
   {
     id: 4,
-    img: 'https://www.istockphoto.com/photo/happy-black-businesswoman-using-a-smartphone-in-a-creative-office-gm1408041355-459029954?utm_campaign=srp_photos_10&utm_content=https%3A%2F%2Fwww.pexels.com%2Fprocurar%2Fpessoas%2F&utm_medium=affiliate&utm_source=pexels&utm_term=pessoas',
+    img: 'https://media.istockphoto.com/id/1408041355/pt/foto/happy-black-businesswoman-using-a-smartphone-in-a-creative-office.jpg?s=1024x1024&w=is&k=20&c=j26b1VPEdLerWfwoTZpAyb0saJQxwXKkqgBOJxpNaB8=',
     username: 'Flavia Regina',
     email: 'regina@email.com',
     clientProcess: '004002',
@@ -125,3 +125,23 @@ export const topDealUsers = [
     role: 'user',
   },
 ];
+
+//RECHARTS
+
+export const chartBoxUser = {
+  color: '#8884d8',
+  icon: '/userIcon.svg',
+  title: 'Total de Clientes',
+  dataKey: 'clientes',
+  number: '600',
+  percentage: '45',
+  chartData: [
+    { name: 'Sun', clientes: 100 },
+    { name: 'SEG', clientes: 100 },
+    { name: 'TER', clientes: 50 },
+    { name: 'QUAR', clientes: 50 },
+    { name: 'QUIN', clientes: 100 },
+    { name: 'SEX', clientes: 100 },
+    { name: 'SAB', clientes: 0 },
+  ],
+};

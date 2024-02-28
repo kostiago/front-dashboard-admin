@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 2px solid $soft-bg;
+
+  li {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+  }
+
+  .current {
+    background: $main-bg;
+    font-weight: bold;
+    border: 2px solid $soft-bg;
+    border-bottom: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    top: 2px;
+
+    &:hover {
+      background-color: red;
+      cursor: pointer;
+    }
+  }
+}
